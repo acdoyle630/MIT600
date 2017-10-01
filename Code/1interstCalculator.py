@@ -18,7 +18,7 @@ oustandingBalance = float(raw_input("Outstanding balace: "))
 annualInterestRate = float(raw_input("Annual Interest Rate: "))
 minimumMonthlyPaymentRate = float(raw_input("Minimum Monthly Payment Rate: "))
 
-month = 1
+
 totalAmountPaid = 0
 remainingBalance = oustandingBalance
 

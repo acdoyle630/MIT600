@@ -28,7 +28,7 @@ originalBalance = float(oustandingBalance)
 
 
 while totalPaid < originalBalance:
-  minimumMonthlyPayment = minimumMonthlyPayment + 10
+  minimumMonthlyPayment = minimumMonthlyPayment + 10.00
   oustandingBalance = originalBalance
   totalPaid = 0.00
   for i in range(1,13):
